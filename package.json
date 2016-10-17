@@ -1,0 +1,43 @@
+{
+  "name": "parse-human-date-range",
+  "version": "0.0.0",
+  "description": "Parse human-readable date to range of dates.",
+  "main": "index.js",
+  "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint '{index,test/**/*}.js' && istanbul cover _mocha 'test/**/*.js' && istanbul check-coverage"
+  },
+  "dependencies": {
+    "date-range": "0.0.2",
+    "date.js": "^0.3.1",
+    "days": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-niksy": "^3.0.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "timekeeper": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "date",
+    "human",
+    "parse",
+    "range"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksy/parse-human-date-range.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niksy/parse-human-date-range/issues"
+  },
+  "homepage": "https://github.com/niksy/parse-human-date-range#readme"
+}
