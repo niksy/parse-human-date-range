@@ -1,6 +1,6 @@
 {
   "name": "parse-human-date-range",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parse human-readable date to range of dates.",
   "main": "index.js",
   "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
